@@ -1,8 +1,8 @@
 ---
-name: exa-deep-research
+name: deep-research
 description: Deep research using Exa AI. Use when the user needs comprehensive research, literature review, multi-source synthesis, or asks to "research", "deep search", "look into", or "find out about" a topic.
 user-invocable: true
-argument-hint: [fast|pro] topic or question
+argument-hint: [fast|balanced|pro] topic or question
 allowed-tools:
   - mcp__exa__deep_researcher_start
   - mcp__exa__deep_researcher_check
@@ -76,21 +76,21 @@ When presenting results:
 ## Examples
 
 ```
-/deep-research what is retrieval augmented generation
+/exa-deep-research what is retrieval augmented generation
 → Routes to deep_researcher_start with exa-research-fast
 
-/deep-research pro: comparative analysis of transformer architectures for education
+/exa-deep-research pro: comparative analysis of transformer architectures for education
 → Routes to deep_researcher_start with exa-research-pro
 
-/deep-research https://arxiv.org/abs/2401.12345
+/exa-deep-research https://arxiv.org/abs/2401.12345
 → Routes to crawling_exa
 
-/deep-research how does the Anthropic Python SDK handle streaming
+/exa-deep-research how does the Anthropic Python SDK handle streaming
 → Routes to get_code_context_exa
 
-/deep-research Notion company
+/exa-deep-research Notion company
 → Routes to company_research_exa
 
-/deep-research who won the 2024 Nobel Prize in Physics
+/exa-deep-research who won the 2024 Nobel Prize in Physics
 → Routes to web_search_exa
 ```

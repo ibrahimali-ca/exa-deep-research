@@ -11,10 +11,10 @@ A Claude Code skill that wraps [Exa AI's](https://exa.ai) MCP tools into a singl
 
 ```bash
 # Clone into your Claude Code skills directory
-git clone https://github.com/ibrahimali-ca/exa-deep-research.git ~/.claude/skills/exa-deep-research
+git clone https://github.com/ibrahimali-ca/deep-research.git ~/.claude/skills/deep-research
 ```
 
-Or copy `SKILL.md` manually into `~/.claude/skills/exa-deep-research/SKILL.md`.
+Or copy `SKILL.md` manually into `~/.claude/skills/deep-research/SKILL.md`.
 
 ## Usage
 
